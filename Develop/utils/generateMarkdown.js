@@ -1,7 +1,9 @@
 async function generateMarkdown(data) {
   return `
 # ${data.project_title}
+
 ![](https://badge.fury.io/js/npm.svg)
+
 ${data.description}
  
 ## Table of Contents
@@ -12,20 +14,27 @@ ${data.description}
 * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions)
+
 ## General info
 ${data.generalInfo}
+
 ## Installation
 \`\`\`
 ${data.installation}
 \`\`\`
+
 ## Usage
 ![Screenshot](/Develop/images/usage-image.png)
+
 ## License
 ${data.license}
+
 ## Contributing
 ${data.contributing}
+
 ## Tests
 ${data.tests}
+
 ## Questions
 * GitHub profile picture:
 ![Image](${data.profileImage})
@@ -36,3 +45,4 @@ ${data.tests}
 
 
 module.exports = generateMarkdown;
+

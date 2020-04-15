@@ -1,1 +1,1 @@
-# readme
+I have updated this to show the generated read-me. This could be very helpful as I am not great at writing readme files. This was the homework for week nine using node.js. 
